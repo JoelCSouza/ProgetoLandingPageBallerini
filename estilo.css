@@ -125,7 +125,7 @@ button:hover {
 
 @media(max-width: 420px) {
 
-    .cabeçalho {
+    .cabeçalho > nav {
         display: flex;
         flex-direction: column;
         align-items: center;
