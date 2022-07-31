@@ -122,3 +122,23 @@ button:hover {
     display: block;
     margin: 0px auto;
 }
+
+@media(max-width: 400px) {
+
+.primeiro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.imagem-principal {
+    height: 300px;
+    padding-top: 40px;
+}
+
+.segundo{
+    padding: 15px;
+}
+}
