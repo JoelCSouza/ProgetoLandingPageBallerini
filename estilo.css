@@ -125,20 +125,25 @@ button:hover {
 
 @media(max-width: 420px) {
 
-.primeiro {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 40px;
-}
+    .cabeçalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.imagem-principal {
-    height: 300px;
-    padding-top: 40px;
-}
+    .primeiro {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding-top: 40px;
+    }
 
-.segundo{
-    padding: 15px;
-}
+    .imagem-principal {
+       height: 300px;
+       padding-top: 40px;
+    }
+
+    .segundo{
+       padding: 15px;
+    }
 }
