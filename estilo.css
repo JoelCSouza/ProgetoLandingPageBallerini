@@ -128,7 +128,7 @@ button:hover {
     .menu {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .primeiro {
